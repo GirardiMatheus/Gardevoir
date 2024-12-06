@@ -23,12 +23,13 @@ This project, **Gardevoir**, is a **Task Management API** built with Flask, desi
 ---
 
 ## 📂 Project Structure
+```bash
 Gardevoir/ 
 ├── app.py # Main application file with API endpoints 
 ├── tasks.py # Task model definition 
 ├── tests.py # Automated test cases for API validation 
 └── requirements.txt # Python dependencies
-
+```
 ---
 
 ## 🧑‍💻 Getting Started
@@ -46,26 +47,26 @@ Gardevoir/
 
 2. Install dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 3. Run the application:
 
-```
+```bash
 python app.py
 ```
 
 4. Access the API at:
 
-```
+```bash
 http://127.0.0.1:5000
 ```
 
 ## 🧪 Testing the API
 Run the automated tests using Pytest:
 
-```
+```bash
 pytest tests.py
 ```
 
@@ -73,7 +74,7 @@ pytest tests.py
 
 ### Base URL:
 
-```
+```bash
 http://127.0.0.1:5000
 ```
 ### Endpoints:
